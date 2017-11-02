@@ -1,0 +1,34 @@
+body {
+	background:
+    linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+		/*Cool background effect! If you got the idea from anywhere, make sure you cite it. */
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.wrapper {
+	color: #FEFEFE;
+	text-align: center;
+}
+
+#title{
+	color: black;
+  text-align: center;
+}
+
+.textUnder{
+  color: white;
+  text-align: center;
+}
+
+#answer{
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+/*CSS is solid, would have liked to have seen a little bit more.  Maybe account for different screen sizes, or supply an image?  Maybe you could play around with the button and input sizing as well.  
+Best practice CSS is to go from least specific to most specific
+- General element selectors first
+- Then all class selectors
+- Then all id selectors*/
